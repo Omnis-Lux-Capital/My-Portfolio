@@ -38,19 +38,17 @@ My-Portfolio/
 
 │   ├── GameBoyCalculator/
 
-│   │   ├── index.html
+│     ├── index.html
 
-│   │   ├── style.css
+│     ├── style.cs
 
-│   │   ├── script.js
+│     ├── script.js
 
-│   │   ├── shell.png
+│     ├── shell.png
 
-│   │   └── README.md
+│     └── README.md
 
-│   ├── WeatherFetcher/
-
-│   │   └── (Coming Soon)
+│     └── (Coming Soon)
 
 ├── .gitignore
 
