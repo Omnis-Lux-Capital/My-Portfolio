@@ -48,8 +48,6 @@ My-Portfolio/
 
 │     └── README.md
 
-│     └── (Coming Soon)
-
 ├── .gitignore
 
 ├── README.md ← you are here
