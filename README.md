@@ -20,7 +20,7 @@ My very first project — a fully functional calculator that looks like a classi
 View the project here:
 `/Projects/GameBoyCalculator/index.html`
 
-![Screenshot](./shell.png)
+![Screenshot](Projects/GameBoyCalculator/shell.png)
 
 ---
 
