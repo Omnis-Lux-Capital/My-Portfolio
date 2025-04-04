@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace;
+}
+
+.calculator-container {
+  position: relative;
+  width: 350px;
+}
+
+.gameboy-img {
+  width: 100%;
+  display: block;
+}
+
+.lcd-screen {
+  position: absolute;
+  top: 7.8%;
+  left: 8%;
+  width: 63%;
+  height: 9.2%;
+  background: none;
+  color: #030303;
+  font-size: 1.6rem;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  z-index: 1;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.calculator-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Button Placement */
+.btn-0 {
+  top: 40%;
+  left: 24.7%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-1 {
+  top: 40%;
+  left: 38%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-2 {
+  top: 40%;
+  left: 51.3%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-3 {
+  top: 32.8%;
+  left: 24.7%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-4 {
+  top: 32.8%;
+  left: 38%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-5 {
+  top: 32.8%;
+  left: 51.3%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-6 {
+  top: 25.5%;
+  left: 24.5%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-7 {
+  top: 25.5%;
+  left: 38%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-8 {
+  top: 25.5%;
+  left: 51.3%;
+  width: 10.5%;
+  height: 6%;
+}
+
+.btn-9 {
+  top: 18%;
+  left: 38%;
+  width: 10.5%;
+  height: 6%;
+}
+
+.btn-add {
+  top: 18%;
+  left: 51.3%;
+  width: 10.6%;
+  height: 6%;
+}
+
+.btn-sub {
+  top: 32.8%;
+  left: 64.5%;
+  width: 10.5%;
+  height: 5.8%;
+}
+
+.btn-mul {
+  top: 25.5%;
+  left: 64.7%;
+  width: 10.5%;
+  height: 6%;
+}
+
+.btn-div {
+  top: 18%;
+  left: 64.7%;
+  width: 10.5%;
+  height: 6%;
+}
+
+.btn-clear {
+  top: 18%;
+  left: 24.5%;
+  width: 10.5%;
+  height: 6%;
+}
+
+.btn-eq {
+  top: 40%;
+  left: 64.7%;
+  width: 10.5%;
+  height: 5.8%;
+}

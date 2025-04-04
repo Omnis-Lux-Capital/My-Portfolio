@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Boy Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <img src="shell.png" alt="Game Boy" class="gameboy-img">
+
+    <!-- Green LCD display -->
+    <div class="lcd-screen" id="lcd-display">0</div>
+
+    <div class="calculator-buttons">
+      <!-- Number Buttons -->
+      <button class="btn btn-0" onclick="press('0')" aria-label="0" title="0"></button>
+      <button class="btn btn-1" onclick="press('1')" aria-label="1" title="1"></button>
+      <button class="btn btn-2" onclick="press('2')" aria-label="2" title="2"></button>
+      <button class="btn btn-3" onclick="press('3')" aria-label="3" title="3"></button>
+      <button class="btn btn-4" onclick="press('4')" aria-label="4" title="4"></button>
+      <button class="btn btn-5" onclick="press('5')" aria-label="5" title="5"></button>
+      <button class="btn btn-6" onclick="press('6')" aria-label="6" title="6"></button>
+      <button class="btn btn-7" onclick="press('7')" aria-label="7" title="7"></button>
+      <button class="btn btn-8" onclick="press('8')" aria-label="8" title="8"></button>
+      <button class="btn btn-9" onclick="press('9')" aria-label="9" title="9"></button>
+
+      <!-- Operators -->
+      <button class="btn btn-add" onclick="press('+')" aria-label="Add" title="+"></button>
+      <button class="btn btn-sub" onclick="press('-')" aria-label="Subtract" title="-"></button>
+      <button class="btn btn-mul" onclick="press('×')" aria-label="Multiply" title="×"></button>
+      <button class="btn btn-div" onclick="press('÷')" aria-label="Divide" title="÷"></button>
+
+      <!-- Clear & Equals -->
+      <button class="btn btn-clear" onclick="press('C')" aria-label="Clear" title="Clear"></button>
+      <button class="btn btn-eq" onclick="press('=')" aria-label="Equals" title="="></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
