@@ -1,6 +1,5 @@
 # 🗂️ Projects Directory
 
-<<<<<<< HEAD
 [![Organized by Design](https://img.shields.io/badge/Structure-Clean-orange)](https://example.com/organized-by-design)
 [![Folder Philosophy](https://img.shields.io/badge/Each%20Folder-Isolated%20Project-informational)](https://example.com/folder-philosophy)
 [![Autonomy](https://img.shields.io/badge/Project%20Style-Self%20Contained-blue)](https://example.com/autonomy)
@@ -8,7 +7,6 @@
 [![Organized by Design](https://img.shields.io/badge/Structure-Clean-orange)](#)
 [![Folder Philosophy](https://img.shields.io/badge/Each%20Folder-Isolated%20Project-informational)](#)
 [![Autonomy](https://img.shields.io/badge/Project%20Style-Self%20Contained-blue)](#)
->>>>>>> c157be4f907b999489b5e0b130e03c523ed8a9fa
 
 ---
 
