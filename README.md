@@ -24,7 +24,7 @@ portfolio/
 
 ├── GameBoyCalculator/
 
-├── WeatherFetcher/
+├── RetroSnake/
 
 └── [More Projects Soon]
 
