@@ -1,75 +1,38 @@
-# ⚡ Omnis Lux Capital: Developer Portfolio
+# 🗂️ Projects Directory
 
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Repo Size](https://img.shields.io/github/repo-size/Omnis-Lux-Capital/My-Portfolio?color=blueviolet)](https://github.com/Omnis-Lux-Capital/My-Portfolio)
-[![License](https://img.shields.io/badge/license-MIT-success)](LICENSE)
-
-> **Version:** `v1.0.0`  
-> This repo contains all of my front-end experiments, UI builds, and functional mini-projects.  
-> Every project lives in its own folder under `/Projects`.
+[![Organized by Design](https://img.shields.io/badge/Structure-Clean-orange)](https://example.com/organized-by-design)
+[![Folder Philosophy](https://img.shields.io/badge/Each%20Folder-Isolated%20Project-informational)](https://example.com/folder-philosophy)
+[![Autonomy](https://img.shields.io/badge/Project%20Style-Self%20Contained-blue)](https://example.com/autonomy)
 
 ---
 
-🧠 What’s Inside
+This directory contains **all active and completed projects**.
 
-- Custom-built front-end projects with precision and style
-- Zero dependencies — built from scratch using raw HTML, CSS, and JS
-- Organized project structure with individual `README.md` files per app
-- Easy to preview, clone, or drop into any showcase
+Each folder inside represents one project, structured for:
 
----
-
-🚀 Featured Projects
-
-| Project | Description | Live Demo | Folder |
-|--------|-------------|------------|--------|
-| **Game Boy Calculator** | Fully functional calculator styled to look like a Game Boy Color. | _Local only_ | [`GameBoyCalculator`](./Projects/GameBoyCalculator) |
-| **WeatherFetcher** | (Coming soon) Live weather app with nostalgic UI vibes. | – | [`WeatherFetcher`](./Projects/WeatherFetcher) |
+- Total independence  
+- Clear separation of code + assets  
+- Easy zipping, deployment, or cloning
 
 ---
 
-🗂 Folder Structure
+## 🔍 Inside Each Project Folder
 
-My-Portfolio/
+Every project contains:
 
-├── Projects/
-
-│   ├── GameBoyCalculator/
-
-│     ├── index.html
-
-│     ├── style.cs
-
-│     ├── script.js
-
-│     ├── shell.png
-
-│     └── README.md
-
-├── .gitignore
-
-├── README.md ← you are here
+- Its own `README.md`
+- Its own `main.*` or `index.*` entry point
+- An `assets/` directory (if needed)
+- All files required to run independently
 
 ---
 
-📦 Releases
+## 🚫 What You Won’t Find Here
 
-Releases are scoped to **individual project folders** for clean downloading.  
-Only the code related to that specific app is included — no bloated archives.
-
-> Example: [Download `GameBoyCalculator.zip`](https://github.com/Omnis-Lux-Capital/My-Portfolio/releases/tag/v1.0.0)
-
----
-
-🛠 Upcoming
-
-- Interactive project pages w/ GitHub Pages
-- GIF previews for each app
-- CLI integration for launching apps locally
+- No monolith builds  
+- No shared resources between projects  
+- No global dependencies across folders
 
 ---
 
-Made by  
-**Donn Kapo** — fueled by creativity, caffeine, and pure developer momentum.
+> This folder is the **sandbox**. Every tool, calculator, game, or prototype lives here — ready for refinement or release.
