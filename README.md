@@ -36,7 +36,7 @@ Every project contains:
 ---
 
 > This folder is the **sandbox**. Every tool, calculator, game, or prototype lives here — ready for refinement or release
-=======
+---
 # 🚀 Omnis Lux Capital – Developer Portfolio
 
 [![Built with Passion](https://img.shields.io/badge/Built%20by-Omnis%20Lux%20Capital-red)](https://github.com/Omnis-Lux-Capital)
